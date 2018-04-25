@@ -19,8 +19,7 @@ print()
 
 
 def serad_podle_abecedy_bez_pvniho_pismene(seznam):
-    seznam_klicu = [zvire[1:len(zvire)] for zvire in seznam]
-    seznam_dvojic = list(zip(seznam_klicu, seznam))
+    seznam_dvojic = [(zvire[1:], zvire) for zvire in seznam]
     serazene_dvojice = sorted(seznam_dvojic)
     seznam_hodnot = [dvojice[1] for dvojice in serazene_dvojice]
     return seznam_hodnot

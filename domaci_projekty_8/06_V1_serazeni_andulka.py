@@ -19,15 +19,10 @@ print(domaci_zvirata)
 print()
 
 
-# seznam klíčů, podle kterých se bude seznam abecedně řadit
-seznam_klicu = [zvire[1:len(zvire)] for zvire in domaci_zvirata]
-print(seznam_klicu)
-print()
-
-
-# seznam n-tic(klíč, hodnota)
-seznam_dvojic = list(zip(seznam_klicu, domaci_zvirata))
+# seznam n-tic (klíč, zvíře), podle kterých se bude seznam abecedně řadit
+seznam_dvojic = [(zvire[1:], zvire) for zvire in domaci_zvirata]
 print(seznam_dvojic)
+print()
 
 
 # seřarení dvojic abecedně - ignoruje první písmeno
