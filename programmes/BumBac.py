@@ -16,7 +16,7 @@ for cislo in range(lower_base, upper_base + 1):
         print("bum-bác")
 
     if cislo % 3 == 0 and cislo % 5 != 0:
-            print("bum")
+        print("bum")
 
     if cislo % 5 == 0 and cislo % 3 != 0:
-            print("bác")
+        print("bác")
