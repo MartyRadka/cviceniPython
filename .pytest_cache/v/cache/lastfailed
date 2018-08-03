@@ -1,6 +1,1 @@
-{
-  "programmes/NEW/test_circle.py::test_get_area_of_circle": true,
-  "programmes/NEW/test_circle.py::test_get_circumference": true,
-  "programmes/NEW/test_circle2.py::test_get_area_of_circle": true,
-  "programmes/NEW/test_circle2.py::test_get_circumference": true
-}
+{}
