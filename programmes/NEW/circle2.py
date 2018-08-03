@@ -18,17 +18,19 @@ def get_area_of_circle(r):
     return pi * r ** 2
 
 
-state = True
-while state:
-    try:
-        radius = get_output()
-        if radius > 0:
-            print("Circumference: {}".format(get_circumference(radius)))
-            print("Aria of circle: {}".format(get_area_of_circle(radius)))
-            state = False
-        else:
-            print("Must be greater than zero.")
-    except ValueError:
-        print("Wrong radius!")
+if __name__ == '__main__':
+
+    state = True
+    while state:
+        try:
+            radius = get_output()
+            if radius > 0:
+                print("Circumference: {}".format(get_circumference(radius)))
+                print("Aria of circle: {}".format(get_area_of_circle(radius)))
+                state = False
+            else:
+                print("Must be greater than zero.")
+        except ValueError:
+            print("Wrong radius!")
 
 

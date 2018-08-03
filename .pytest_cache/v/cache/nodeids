@@ -1,1 +1,14 @@
-[]
+[
+  "games/test_rock_paper_dict.py::test_eval_game",
+  "games/test_rock_paper_dict.py::test_get_comp_choice",
+  "games/test_rock_paper_dict.py::test_get_user_choice_valid_value",
+  "games/test_rock_paper_dict.py::test_get_user_choice_invalid_value",
+  "programmes/NEW/test_circle.py::test_get_circumference",
+  "programmes/NEW/test_circle.py::test_get_area_of_circle",
+  "programmes/NEW/test_circle2.py::test_get_circumference",
+  "programmes/NEW/test_circle2.py::test_get_area_of_circle",
+  "programmes/NEW/test_personal_identification_number.py::test_is_pin_correct",
+  "programmes/NEW/test_personal_identification_number.py::test_is_divisible_by_11",
+  "programmes/NEW/test_personal_identification_number.py::test_get_day_of_birth",
+  "programmes/NEW/test_personal_identification_number.py::test_get_gender"
+]

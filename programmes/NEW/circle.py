@@ -23,12 +23,14 @@ def get_area_of_circle(r):
     return pi * r ** 2
 
 
-state = True
-while state:
-    radius = get_output()
-    if radius:
-        print("Circumference: {}".format(get_circumference(radius)))
-        print("Aria of circle: {}".format(get_area_of_circle(radius)))
-        state = False
+if __name__ == '__main__':
+
+    state = True
+    while state:
+        radius = get_output()
+        if radius:
+            print("Circumference: {}".format(get_circumference(radius)))
+            print("Aria of circle: {}".format(get_area_of_circle(radius)))
+            state = False
 
 
