@@ -1,6 +1,6 @@
 import mock
 
-from cviceni_python_git.games.rock_paper_dict import eval_game, get_comp_choice, get_user_choice
+from cviceni_git.games.rock_paper_dict import eval_game, get_comp_choice, get_user_choice
 
 
 def test_eval_game():

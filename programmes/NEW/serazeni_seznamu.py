@@ -10,22 +10,27 @@
 # Proč má zrovna had takové výsadní postavení, zjistíš později.
 
 
-domaci_zvirata = ["pes", "kočka", "králík", "had"]
-print(domaci_zvirata)
+animals = ["pes", "kočka", "králík", "had"]
+print(animals)
 
-domaci_zvirata.append("andulka")
-print(domaci_zvirata)
+animals.append("andulka")
+print(animals)
 print()
 
 
-def serad_podle_abecedy_bez_pvniho_pismene(seznam):
-    seznam_dvojic = [(zvire[1:], zvire) for zvire in seznam]
-    serazene_dvojice = sorted(seznam_dvojic)
-    seznam_hodnot = [dvojice[1] for dvojice in serazene_dvojice]
-    return seznam_hodnot
+def order_list(list):
+    """
+
+    :param list: list of animals
+    :return: ordered list of animals by alphabet without counting the first letter
+    """
+    list_pairs = [(animal[1:], animal) for animal in list]
+    ordered_pairs = sorted(list_pairs)
+    list_values = [pair[1] for pair in ordered_pairs]
+    return list_values
 
 
-print(serad_podle_abecedy_bez_pvniho_pismene(domaci_zvirata))
+print(order_list(animals))
 
 
 

@@ -1,6 +1,7 @@
 import pytest
 
-from cviceni_python_git.programmes.personal_identification_number import is_pin_correct, is_divisible_by_11, get_day_of_birth, get_gender
+from cviceni_git.programmes.NEW.personal_identification_number import is_pin_correct, is_divisible_by_11, \
+    get_day_of_birth, get_gender
 
 # pin = personal identification number
 
