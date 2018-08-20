@@ -1,3 +1,3 @@
 # Pyladies
 
-Python3 workout with Pyladies :)
+Python3 training with Pyladies :)
